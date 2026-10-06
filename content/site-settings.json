@@ -1,0 +1,75 @@
+{
+  "menuLinks": [
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Sustainability",
+      "href": "/sustainability"
+    }
+  ],
+  "socialLinks": [
+    {
+      "title": "Instagram",
+      "href": "#"
+    },
+    {
+      "title": "Twitter",
+      "href": "#"
+    },
+    {
+      "title": "Facebook",
+      "href": "#"
+    }
+  ],
+  "email": "info@79eastglobaltrade.co",
+  "footer": {
+    "wordmark": "79 East",
+    "emailPlaceholder": "Email address",
+    "emailHint": "Message",
+    "links": [
+      {
+        "title": "About",
+        "href": "/about"
+      },
+      {
+        "title": "Contact",
+        "href": "/contact"
+      },
+      {
+        "title": "Service",
+        "href": "/service"
+      },
+      {
+        "title": "Home",
+        "href": "/"
+      }
+    ],
+    "address": "Head Office:\nRoom 3409-3410, East Tower,\nLiberty Trade Center,\n1225 Market Street, Suite 400,\nSan Francisco, CA 94103\nUSA",
+    "contacts": [
+      {
+        "title": "Whatsapp: +151 6225 0000",
+        "href": "https://wa.me/15162250000"
+      },
+      {
+        "title": "Chinese: +16 000 0232 3908",
+        "href": "tel:+1600002323908"
+      },
+      {
+        "title": "Info@79eastglobaltrade.Co",
+        "href": "mailto:info@79eastglobaltrade.co"
+      }
+    ],
+    "legalLeft": "All Right Reserved",
+    "legalRight": "79 East Co"
+  },
+  "defaults": {
+    "title": "79 East",
+    "description": "We connect purpose-led brands with textile manufacturers in India who are already certified, audited, and doing the work."
+  }
+}

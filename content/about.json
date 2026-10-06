@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "backgroundImage": "/uploads/about-background-1500x1000.webp",
+    "mantra": "Om Asato Maa Sad-Gamaya |\nTamaso Maa Jyotir-Gamaya |\nMrtyor-Maa Amrtam Gamaya |\nOm Shaantih Shaantih Shaantih ||",
+    "heading": "Lead Us From Illusion To Truth, From Darkness To Light, From Transience To Lasting Impact"
+  },
+  "story": {
+    "rows": [
+      {
+        "title": "Our Inspiration",
+        "body": "Inspired By The Timeless Wisdom Of The Bṛhadāraṇyaka Upanishad, Our Ethos Is Rooted In A Vedic Prayer That Guides Us From Illusion To Truth, Darkness To Light, And Transience To Lasting Impact. This Philosophy Drives Our Commitment To Meaningful Change In Conscious Commerce."
+      },
+      {
+        "title": "Who We Are",
+        "body": "79° East Is A Premier Platform Connecting Conscious Brands With Sustainable, Ethical Manufacturers. We Simplify Value-Aligned Sourcing, Ensuring Transparency And Impact, Empowering Brands To Produce Responsibly And Lead With Purpose."
+      },
+      {
+        "title": "Our Mission",
+        "body": "We Strive To Unite Conscious Businesses With Trusted Manufacturers Dedicated To Sustainability, Ethical Sourcing, And Innovation. By Leveraging Renewable Energy, Creating Eco-Friendly Products, And Pursuing Zero-Waste Systems, We Empower Communities And Drive A Global Shift Toward Responsible Commerce."
+      }
+    ]
+  },
+  "values": {
+    "heading": "Our Values",
+    "intro": "By Leveraging Renewable Energy, Creating Eco-Friendly Products, And Pursuing Zero-Waste Systems, We Empower Communities And Drive A Global Shift Toward Responsible Commerce.",
+    "items": [
+      {
+        "title": "Sustainability",
+        "body": "Committed To Eco-Conscious Production And Zero-Waste Systems To Safeguard Our Planet."
+      },
+      {
+        "title": "Ethics",
+        "body": "Championing Fair Practices And Empowering Communities Through Ethical Sourcing."
+      },
+      {
+        "title": "Transparency",
+        "body": "Ensuring Clear, Value-Aligned Sourcing For Informed, Responsible Decisions."
+      },
+      {
+        "title": "Innovation",
+        "body": "Embracing Cutting-Edge Sustainable Technologies For Transformative Solutions."
+      },
+      {
+        "title": "Impact",
+        "body": "Driving Measurable Change In The Pursuit Of Responsible Commerce."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Transform Your Supply Chain",
+    "text": "Join The Movement Toward Conscious Commerce And Partner With Ethical Manufacturers Who Share Your Vision.",
+    "buttonLabel": "Get started",
+    "buttonHref": ""
+  },
+  "seo": {
+    "title": "About — 79 East",
+    "description": "79° East is a platform connecting conscious brands with sustainable, ethical manufacturers."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "headline": "Ethical Sourcing,\nMade Simple.",
+    "description": "We connect purpose-led brands with textile manufacturers in India who are already certified, audited, and doing the work — renewable energy, fair labor, low-waste production.",
+    "ctaLabel": "Book a consultation",
+    "desktopImage": "/uploads/hero/desktopImage.webp",
+    "mobileImage": "/uploads/hero/mobileImage.webp"
+  },
+  "intro": {
+    "image": "/uploads/intro/image.webp",
+    "imageAlt": "A certification shield with a copyright mark in front of a globe, leaves and garment pattern sketches",
+    "text": "At 79° East, we’re building a new model for manufacturing—one where sustainability, innovation, and transparency aren't optional, but foundational. Here’s why working with us makes a difference.",
+    "ctaLabel": "Learn about us",
+    "ctaHref": "/about"
+  },
+  "values": {
+    "heading": "How We Vet Our\nManufacturing Partners",
+    "intro": "We Only Work With Manufacturers Who Match Our Commitment To Sustainability, Ethics, And Innovation. Here’s What We Look For—And Why It Matters To You:",
+    "items": [
+      {
+        "title": "Deep Commitment To Sustainable Practices",
+        "body": "Sustainability Is More Than A Value It’s Our Starting Point. Our Partner Factories In India Operate On Renewable Energy. We Use Ethically Sourced, Certified Fibers And Biodegradable Textiles. Circular Economy Principles Guide Every Process From Design To Delivery. We're Setting A New Standard For Products That Benefit Both People And The Planet."
+      },
+      {
+        "title": "Innovation That Drives Cost Efficiency",
+        "body": "Sustainable Shouldn’t Mean Expensive. We Use Digital Technologies To Streamline Production And Reduce Costs. Our Optimized Methods Ensure High–Quality, Eco–Friendly Products Stay Accessible. Innovation Isn’t Just A Buzzword It’s How We Help Your Business Grow Responsibly."
+      },
+      {
+        "title": "Radical Supply Chain Transparency",
+        "body": "We Believe In Earning Trust, Not Assuming It. Every Step Of Our Supply Chain From Raw Materials To Shipping Is Traceable. We Partner Only With Suppliers Who Meet Rigorous Ethical And Labor Standards. You Know Where Your Product Comes From And Who Made It."
+      }
+    ]
+  },
+  "vetting": {
+    "heading": "How We Vet Our\nManufacturing Partners",
+    "intro": "We Only Work With Manufacturers Who Match Our Commitment To Sustainability, Ethics, And Innovation. Here’s What We Look For—And Why It Matters To You:",
+    "cards": [
+      {
+        "image": "/uploads/vetting/cards/0/image.webp",
+        "imageAlt": "A certification shield with a copyright mark in front of a globe, leaves and garment pattern sketches",
+        "title": "Certified Sustainability",
+        "body": "Our Partners Are Globally Certified With Standards Like GOTS, OEKO-TEX, BCI, And GRS, Ensuring Organic Materials, Low-Impact Dyes, And Safe, Transparent Supply Chains.",
+        "matters": "Why It Matters: You Get Verified Sustainable Products That Meet Global Benchmarks."
+      },
+      {
+        "image": "/uploads/vetting/cards/1/image.webp",
+        "imageAlt": "A red ribbon winding past a mortar and pestle, a screen-printing frame, factory machinery and a robotic arm",
+        "title": "Fair Labor & Ethical Practices",
+        "body": "We Only Collaborate With Factories That Ensure Fair Wages, Safe Working Conditions, And No Exploitation— Verified Through Fair Trade, WRAP, And SEDEX Audits.",
+        "matters": "Why It Matters: Your Brand Stands For Dignity And Respect At Every Step"
+      },
+      {
+        "image": "/uploads/vetting/cards/2/image.webp",
+        "imageAlt": "Textile machinery connected by glowing icons for Wi-Fi, AI, blockchain, security and speed",
+        "title": "Industry 4.0 Innovation",
+        "body": "From IoT To Blockchain And AI-Driven Production, Our Partners Use Advanced Tech To Reduce Waste, Improve Quality, And Ensure Product Traceability.",
+        "matters": "Why It Matters: You Get Better Quality, Faster Timelines, And Future-Ready Manufacturing."
+      },
+      {
+        "image": "/uploads/vetting/cards/3/image.webp",
+        "imageAlt": "A gold-ringed medallion showing raw cotton, a factory and finished folded fabric",
+        "title": "Vertical Integration",
+        "body": "We Work With Vertically Integrated Factories That Control Every Step From Raw Material To Finished Product, Reducing Carbon Footprint And Increasing Quality Control.",
+        "matters": "Why It Matters: Greater Efficiency, Fewer Middlemen, And Smoother Production."
+      }
+    ]
+  },
+  "howItWorks": {
+    "heading": "How It Works",
+    "intro": "We Only Work With Manufacturers Who Match Our Commitment To Sustainability, Ethics, And Innovation. Here’s What We Look For—And Why It Matters To You:",
+    "image": "/uploads/howItWorks/image.webp",
+    "imageAlt": "Serpentine collage of a stepwell, brass and ceramic wares, a textile mill and a container ship",
+    "steps": [
+      {
+        "title": "Free, No-Pressure Consultation",
+        "body": "Start With A Complimentary Consultation To Explore Your Goals And Understand What Success Looks Like For Your Brand."
+      },
+      {
+        "title": "Personalized Manufacturer Matchmaking",
+        "body": "We Carefully Select The Right Manufacturing Partner Based On Your Product’s Unique Needs—Ensuring Alignment In Quality, Capacity, And Values."
+      },
+      {
+        "title": "Full Transparency, Always",
+        "body": "No Hidden Fees, No Middlemen Games. You’ll Have Full Visibility Into Supplier Remuneration, With A Strict No-Kickback, No-Bribe Policy In Place."
+      },
+      {
+        "title": "Platform-Based Partnership, Not Brokers",
+        "body": "We Don’t Negotiate Behind Closed Doors—We Create The Space For Ethical, Open Collaboration Between Brands And Manufacturers."
+      },
+      {
+        "title": "Verified Quality Standards",
+        "body": "All Partners Adhere To Global Certifications Like ISO, GOTS, And Fair Trade. We Ensure Your Product Meets The Highest Benchmarks For Quality And Sustainability"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "heading": "Your Next Chapter.\nMade Possible.",
+    "text": "Tell Us What You Want To Bring Into The World.\nWe’ll Start With The Possibilities.",
+    "buttonLabel": "Connect with us",
+    "buttonHref": "/about",
+    "leftIllustration": "/uploads/ctaBanner/leftIllustration.png",
+    "rightIllustration": "/uploads/ctaBanner/rightIllustration.png"
+  },
+  "seo": {
+    "title": "79 East — Ethical Sourcing, Made Simple",
+    "description": "We connect purpose-led brands with textile manufacturers in India who are already certified, audited, and doing the work."
+  }
+}

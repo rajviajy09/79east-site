@@ -1,0 +1,145 @@
+/* Second arrow-button variant. Every class and data attribute is
+   prefixed btn2- / data-button2- so nothing here collides with
+   ArrowButton.css.
+
+   The four colour declarations, if you want to retheme it:
+     .btn2-icon-content      background-color + color   (button fill + label)
+     .btn2-icon-link         color                      (arrow badge fill)
+     .btn2-icon-icon__wrap   color                      (arrow glyph)
+     .btn2-icon-content__bg  background-color           (hover sweep)
+*/
+
+.btn2-group {
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .btn2-icon-link {
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    color: #EDE6D8;
+    font-size: 1em;
+    line-height: 1.2;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .btn2-icon-icon {
+    z-index: 1;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    width: 1em;
+    height: 1em;
+    display: flex;
+    position: relative;
+  }
+  
+  .btn2-icon-icon__bg {
+    background-color: currentColor;
+    border-radius: 0.125em;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .btn2-icon-icon__wrap {
+    color: #EDE6D8;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn2-icon-icon__wrap.btn2-color-white {
+    color: #fff;
+  }
+  
+  .btn2-icon-icon__list {
+    flex: none;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    display: flex;
+  }
+  
+  .btn2-icon-icon__arrow {
+    flex: none;
+    width: 1em;
+    height: 100%;
+    padding: 0.2em;
+  }
+  
+  .btn2-icon-content {
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    color: #b83e28;
+    background-color: #EDE6D8;
+    border-radius: 0.25em;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.6125em 0.75em;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn2-icon-content__text {
+    --text-duplicate-distance: 1.5em;
+    font-size: 1em;
+    text-shadow: 0px var(--text-duplicate-distance) currentColor;
+  }
+  
+  .btn2-icon-content__mask {
+    z-index: 1;
+    flex: none;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn2-icon-content__bg {
+    z-index: 0;
+    background-color: #EDE6D8;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: -10%;
+    transform: translate(0, 175%) rotate(15deg);
+  }
+  
+  [data-button2-anim-target] {
+    transition: transform 0.525s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .btn2-icon-link:hover .btn2-icon-content__text {
+      transform: translate(0px, calc(-1 * var(--text-duplicate-distance)));
+    }
+  
+    .btn2-icon-link:hover .btn2-icon-icon__bg {
+      transform: rotate(90deg);
+    }
+  
+    .btn2-icon-link:hover .btn2-icon-icon__arrow {
+      transform: translate(200%, 0px);
+    }
+  
+    .btn2-icon-link:hover .btn2-icon-content__bg {
+      transform: translate(0px, 0%) rotate(0deg);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .btn2-icon-content__text {
+      font-size: 0.875em;
+    }
+  }

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "backgroundImage": "/uploads/sustainability-background-1500x1000.webp",
+    "headline": "Our Commitment To Sustainability",
+    "description": "Creating Sustainable Impact Through Responsible Sourcing & Manufacturing",
+    "ctaLabel": "Book a consultation",
+    "ctaHref": ""
+  },
+  "practices": {
+    "heading": "Our Sustainable Practices",
+    "intro": "Innovating for a greener future with purpose-driven solutions",
+    "cards": [
+      {
+        "image": "/uploads/sus-renewable.png",
+        "imageAlt": "Shipping cranes and containers beside brass vessels and bowls",
+        "title": "Powered by Renewable Energy",
+        "body": "Our manufacturing facilities are powered by renewable energy, including solar and wind power. Combined with energy-efficient machinery, we reduce emissions and energy consumption across the board. By adopting next-generation technology, we help lower your carbon footprint—and ours."
+      },
+      {
+        "image": "/uploads/sus-sourcing.png",
+        "imageAlt": "Rolled textiles, carved marble and ceramic bowls of natural pigment",
+        "title": "Sustainable Sourcing & Fair Labor",
+        "body": "We source materials with purpose. From low-impact natural fibers to recycled synthetics, we minimize water usage, reduce pesticide reliance, and promote responsible farming. Our materials are certified by GOTS, OEKO-TEX, GRS, and more—so you can trust what’s in your supply chain."
+      },
+      {
+        "image": "/uploads/sus-circular.png",
+        "imageAlt": "The full journey from raw cotton to finished goods and shipping",
+        "title": "Embracing the Circular Economy",
+        "body": "We design with end-of-life in mind. From biodegradable fabrics to closed-loop recycling systems, our goal is to keep textiles out of landfills and in circulation. Whether it's repurposing off-cuts or transforming post-consumer waste into new materials, we're reducing waste at every stage of the manufacturing cycle."
+      },
+      {
+        "image": "/uploads/sus-biomaterials.png",
+        "imageAlt": "Raw cotton fibre beside textile machinery",
+        "title": "Biomaterials & Alternative Fibers",
+        "body": "Sustainability meets science. We’re pioneering the use of biomaterials—from agricultural waste to seaweed and microbial fibers—that reduce reliance on non-renewable resources. These innovative materials are functional, low-impact, and future-ready."
+      },
+      {
+        "image": "/uploads/sus-innovation.png",
+        "imageAlt": "A robotic arm handling stacked textiles on a production line",
+        "title": "Innovation & Technology",
+        "body": "Our sourcing strategy isn’t just about materials—it’s about smarter manufacturing. With 3D printing, smart textiles, and automated precision cutting, we reduce material waste and optimize performance across applications in fashion, healthcare, automotive, and more."
+      },
+      {
+        "image": "/uploads/sus-dyeing.png",
+        "imageAlt": "Bowls of natural dye pigment beside carved marble blocks",
+        "title": "Sustainable Dyeing & Chemistry",
+        "body": "We’re committed to safe chemistry. By using non-toxic dyes, waterless dyeing technologies, and eco-conscious techniques like digital and dope dyeing, we ensure that our manufacturing minimizes harm to people and the planet. We adhere to global standards like REACH and ZDHC, because clean production matters."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Transform Your Supply Chain",
+    "text": "Join The Movement Toward Conscious Commerce And Partner With Ethical Manufacturers Who Share Your Vision.",
+    "buttonLabel": "Get started",
+    "buttonHref": ""
+  },
+  "seo": {
+    "title": "Sustainability — 79 East",
+    "description": "Creating sustainable impact through responsible sourcing and manufacturing."
+  }
+}
