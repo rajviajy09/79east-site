@@ -26,7 +26,7 @@ Locally there is no login, and saving writes straight to `content/` and `public/
 
 ## Put it live: one-time setup
 
-1. **Push this project to a GitHub repository** (private is fine).
+1. **Push this project to a GitHub repository.** Make it **public**: on Netlify's free plan, builds of private repos only run for commits from verified Netlify team members, so a client's edits would be blocked. (Nothing secret is stored in the repo; credentials live in `.env` and Netlify settings.)
 2. **Create the GitHub app Keystatic uses to sign people in** (free, about 2 minutes). In a file named `.env.local`:
    ```
    NEXT_PUBLIC_KEYSTATIC_STORAGE=github
