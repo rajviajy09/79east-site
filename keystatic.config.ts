@@ -111,28 +111,33 @@ export default config({
                 itemLabel: (p) => p.fields.title.value || "Column",
               },
             ),
+            closingText: text("Closing line", "Shown under the columns."),
+            closingButtonLabel: text("Closing line link text", "e.g. Contact us"),
+            closingButtonHref: href("Closing line link"),
           },
-          { label: "Values — the three-column panel" },
+          { label: "Why us — the panel with four columns" },
         ),
-        vetting: fields.object(
+        ledger: fields.object(
           {
             heading: longText("Heading", lines),
-            intro: longText("Intro text"),
-            cards: fields.array(
+            intro: longText(
+              "Intro text",
+              "Leave a blank line between paragraphs.",
+            ),
+            rows: fields.array(
               fields.object({
-                image: picture("Image"),
-                imageAlt: alt(),
-                title: required("Title"),
-                body: longText("Description"),
-                matters: longText("“Why it matters” line"),
+                credit: required("Credit", "e.g. Low-Impact Production"),
+                particulars: longText("Particulars"),
+                benchmark: longText("Benchmark code", lines),
               }),
               {
-                label: "Cards",
-                itemLabel: (p) => p.fields.title.value || "Card",
+                label: "Ledger rows",
+                itemLabel: (p) => p.fields.credit.value || "Row",
               },
             ),
+            closing: text("Closing line", "Shown under the table."),
           },
-          { label: "Vetting cards — the scrolling row" },
+          { label: "Vetting ledger — the table" },
         ),
         howItWorks: fields.object(
           {
@@ -141,14 +146,20 @@ export default config({
             image: picture("Side collage image"),
             imageAlt: alt(),
             steps: fields.array(
-              fields.object({ title: required("Title"), body: longText("Description") }),
+              fields.object({
+                label: text("Label", "e.g. Stage 01"),
+                title: required("Title"),
+                body: longText("Description"),
+              }),
               {
                 label: "Steps",
                 itemLabel: (p) => p.fields.title.value || "Step",
               },
             ),
+            policyLabel: text("Policy label", "e.g. Zero-kickback policy"),
+            policyText: longText("Policy text"),
           },
-          { label: "How it works" },
+          { label: "How it works — the stages" },
         ),
         ctaBanner: fields.object(
           {

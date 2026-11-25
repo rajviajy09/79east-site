@@ -38,9 +38,16 @@ export default function HowItWorks({ data }: { data: HomeContent["howItWorks"] }
               tabIndex={0}
               className="group grid cursor-default grid-cols-1 gap-x-6 gap-y-4 border-t border-[#111111] pb-12 pt-8 outline-none transition-colors duration-500 ease-out md:pb-12 lg:grid-cols-9 lg:rounded-b-[1rem] lg:px-6 lg:pb-16 lg:pt-10 lg:hover:border-[#B4432E] lg:hover:bg-[#B4432E] lg:hover:text-[#EDE6D8] lg:focus-visible:border-[#B4432E] lg:focus-visible:bg-[#B4432E] lg:focus-visible:text-[#EDE6D8]"
             >
-              <h3 className="font-serif text-2xl leading-none transition-transform duration-500 ease-out md:text-3xl lg:col-span-5 lg:pr-8 lg:group-hover:translate-x-2 lg:group-focus-visible:translate-x-2">
-                {step.title}
-              </h3>
+              <div className="transition-transform duration-500 ease-out lg:col-span-5 lg:pr-8 lg:group-hover:translate-x-2 lg:group-focus-visible:translate-x-2">
+                {step.label && (
+                  <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] opacity-70">
+                    {step.label}
+                  </p>
+                )}
+                <h3 className="font-serif text-2xl leading-none md:text-3xl">
+                  {step.title}
+                </h3>
+              </div>
 
               {/* Space is always reserved, so row height never changes.
                   Visible by default on < lg, revealed on hover/focus on lg+. */}
@@ -49,6 +56,21 @@ export default function HowItWorks({ data }: { data: HomeContent["howItWorks"] }
               </p>
             </div>
           ))}
+
+          {(data?.policyLabel || data?.policyText) && (
+            <div className="mt-10 rounded-[1.25rem] bg-[#B4432E] px-6 py-8 text-[#EDE6D8] lg:px-8">
+              {data.policyLabel && (
+                <p className="mb-3 text-xs font-semibold uppercase tracking-[0.14em]">
+                  {data.policyLabel}
+                </p>
+              )}
+              {data.policyText && (
+                <p className="text-base font-medium leading-snug md:text-lg">
+                  {data.policyText}
+                </p>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </section>

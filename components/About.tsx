@@ -1,5 +1,6 @@
 import type { HomeContent } from "@/lib/content";
 import { img } from "@/lib/content";
+import { Lines } from "./Lines";
 import ArrowButton2 from "./Button2/ArrowButton2";
 
 export default function About({ data }: { data: HomeContent["intro"] }) {
@@ -25,8 +26,8 @@ export default function About({ data }: { data: HomeContent["intro"] }) {
           <div className="mt-6 flex flex-col justify-center rounded-[1rem] bg-[#B4432E] px-3 py-6 text-[#EDE6D8] md:mt-0 md:min-h-[380px] md:py-12 md:pl-[20%] md:pr-8 lg:min-h-[400px]">
 
             <div className="flex max-w-[420px] flex-col items-start">
-              <p className="text-lg font-medium leading-[0.95] md:text-2xl">
-                {data?.text}
+              <p className="text-base font-medium leading-snug md:text-xl">
+                <Lines text={data?.text} />
               </p>
 
               {data?.ctaLabel && (
